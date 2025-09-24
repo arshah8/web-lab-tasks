@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1: Table-Based Web Layout</title>
+</head>
+<body>
+    <table border="1" width="100%" cellpadding="10" cellspacing="0">
+        <!-- Header Section -->
+        <thead>
+            <tr>
+                <td colspan="3" bgcolor="#4CAF50" align="center">
+                    <h1>My Website</h1>
+                    <p>Welcome to our table-based layout</p>
+                </td>
+            </tr>
+        </thead>
+        
+        <!-- Main Content Area -->
+        <tbody>
+            <tr>
+                <!-- Navigation Sidebar -->
+                <td width="200" bgcolor="#f0f0f0" valign="top">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="index.html">Back to Lab</a></li>
+                    </ul>
+                    
+                    <!-- Details/Summary Example -->
+                    <details>
+                        <summary>Additional Information</summary>
+                        <p>This is hidden content that can be expanded. It demonstrates the use of HTML5 details and summary elements within our table layout.</p>
+                        <ul>
+                            <li>Feature 1: Responsive design</li>
+                            <li>Feature 2: Semantic HTML</li>
+                            <li>Feature 3: Accessibility</li>
+                        </ul>
+                    </details>
+                </td>
+                
+                <!-- Main Content Area -->
+                <td valign="top">
+                    <h2>Main Content Area</h2>
+                    <p>This is the main content area of our table-based layout. Here we demonstrate various HTML elements within the table structure.</p>
+                    
+                    <!-- Figure with Figcaption -->
+                    <figure>
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzQ0YWFmZiIvPgogIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+SW1hZ2UgUGxhY2Vob2xkZXI8L3RleHQ+Cjwvc3ZnPg==" alt="Sample Image" width="300" height="200">
+                        <figcaption>Figure 1: Sample image demonstrating the use of figure and figcaption elements</figcaption>
+                    </figure>
+                    
+                    <h3>Content Sections</h3>
+                    <p>This layout uses HTML table elements to create a structured web page:</p>
+                    <ul>
+                        <li><strong>thead:</strong> Contains the header row</li>
+                        <li><strong>tbody:</strong> Contains the main content rows</li>
+                        <li><strong>tfoot:</strong> Contains the footer row</li>
+                        <li><strong>rowspan/colspan:</strong> Used for spanning cells</li>
+                    </ul>
+                    
+                    <h3>Table Structure Details</h3>
+                    <table border="1" cellpadding="5">
+                        <tr>
+                            <th>Element</th>
+                            <th>Purpose</th>
+                        </tr>
+                        <tr>
+                            <td>thead</td>
+                            <td>Header section with site title</td>
+                        </tr>
+                        <tr>
+                            <td>tbody</td>
+                            <td>Main content with navigation and content areas</td>
+                        </tr>
+                        <tr>
+                            <td>tfoot</td>
+                            <td>Footer section</td>
+                        </tr>
+                    </table>
+                </td>
+                
+                <!-- Additional Sidebar -->
+                <td width="150" bgcolor="#e8f4f8" valign="top">
+                    <h3>Sidebar</h3>
+                    <p>Additional content area demonstrating the flexibility of table-based layouts.</p>
+                    
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#news">Latest News</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+        
+        <!-- Footer Section -->
+        <tfoot>
+            <tr>
+                <td colspan="3" bgcolor="#333" align="center">
+                    <p style="color: white;">&copy; 2024 Table-Based Layout Example. All rights reserved.</p>
+                    <p style="color: white;">This layout demonstrates HTML table structure without CSS.</p>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
